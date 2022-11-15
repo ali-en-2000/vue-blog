@@ -1,9 +1,13 @@
 import React from 'react'
 import './Hero.css'
 
+import img from '../../assets/bg.png'
+
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div>
+        <img src={img} alt="" />
+    </div>
   )
 }
 
