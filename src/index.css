@@ -5,6 +5,14 @@
   url('../public/fonts/number/vazir.woff') format('woff');
 }
 
+:root{
+  --bgcolor: #fefefe;
+  --white: #fff;
+  --black: #000;
+  --mainColor: #f90230;
+  --secondColor: #2020f4;
+}
+
 body {
   margin: 0;
   direction: rtl;
