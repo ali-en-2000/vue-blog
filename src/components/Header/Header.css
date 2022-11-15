@@ -1,0 +1,17 @@
+.header{
+    background-color: transparent !important;
+    position: fixed;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom:3rem;
+}
+
+.nav li{
+    margin-left: 2rem;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: var(--white);
+}
