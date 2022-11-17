@@ -9,7 +9,7 @@
   --bgcolor: #fefefe;
   --white: #fff;
   --black: #000;
-  --mainColor: #f90230;
+  --mainColor: #142c4c;
   --secondColor: #2020f4;
   --color1: #DFF6FF;
   --color2: #47B5FF;
@@ -28,5 +28,10 @@ body {
   margin: 0;
   direction: rtl;
   font-family: 'vazir' !important;
+
 }
+/* 
+.row{
+  width: 100% !important;
+} */
 

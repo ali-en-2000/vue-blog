@@ -1,10 +1,9 @@
-.header{
-    background-color: transparent !important;
-    position: fixed;
+
+
+.header-container{
     display:flex;
     align-items: center;
     justify-content:space-between;
-    margin-bottom:3rem;
 }
 
 .nav li{
@@ -13,5 +12,5 @@
 
 .nav li a{
     text-decoration: none;
-    color: var(--white);
+    /* color: var(--white); */
 }

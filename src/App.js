@@ -2,15 +2,17 @@
 import './App.css';
 
 //import components 
-import Hero from '../src/components/Hero/Hero'
 import Header from '../src/components/Header/Header'
+import Hero from './components/Hero/Hero'
 
 function App() {
   return (
     <div className="">
 
-    <Header />  
+    <Header /> 
+
     <Hero />
+    
 
     </div>
   );

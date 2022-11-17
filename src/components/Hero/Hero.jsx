@@ -1,17 +1,23 @@
 import React from 'react'
 import './Hero.css'
+import img from '../../assets/bg.webp'
 
-import img from '../../assets/bg.png'
-
-const Hero = () => {
+const Test1 = () => {
   return (
-    <div className="hero">
+    <div className="hero" >
         <div className="container">
-        <h2 className="text-white pt-5" > به بلاگ برنامه نویسی ما خوش آمدید </h2>
-
+        <div className="row " >
+            <div className="col-12 col-md-6">
+                <img src={img} alt="" />
+            </div>
+            <div className="col-12 col-md-6">
+                <h2 className="mb-5" > به بلاگ برنامه نویسی ما خوش آمدید </h2>
+                <p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز  </p>
+            </div>
+        </div>
         </div>
     </div>
   )
 }
 
-export default Hero
+export default Test1
