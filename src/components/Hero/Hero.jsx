@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero.css'
 import img from '../../assets/bg.webp'
 
-const Test1 = () => {
+const Hero = () => {
   return (
     <div className="hero" >
         <div className="container">
@@ -20,4 +20,4 @@ const Test1 = () => {
   )
 }
 
-export default Test1
+export default Hero

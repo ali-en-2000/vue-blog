@@ -1,0 +1,34 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "lorem ipsum dolor sit amet",
+            "photo": "../../assets/post1.jpg",
+            "content": "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
+        },
+        {
+            "id": 2,
+            "title": "lorem ipsum dolor sit amet",
+            "photo": "../../assets/post1.jpg",
+            "content": "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
+        },
+        {
+            "id": 3,
+            "title": "lorem ipsum dolor sit amet",
+            "photo": "../../assets/post1.jpg",
+            "content": "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
+        },
+        {
+            "id": 4,
+            "title": "lorem ipsum dolor sit amet",
+            "photo": "../../assets/post1.jpg",
+            "content": "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
+        },
+        {
+            "id": 5,
+            "title": "lorem ipsum dolor sit amet",
+            "photo": "../../assets/post1.jpg",
+            "content": "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
+        }
+    ]
+}
