@@ -1,9 +1,15 @@
 import React from 'react'
 import './Home.css'
 
+import Hero from '../Hero/Hero'
+import Blogs from '../Blogs/Blogs'
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+        <Hero/>
+        <Blogs/>
+    </div>
   )
 }
 
