@@ -4,11 +4,14 @@ import './Home.css'
 import Hero from '../Hero/Hero'
 import Blogs from '../Blogs/Blogs'
 
-const Home = () => {
+const Home = (props) => {
+  const { blogData } = props;
   return (
     <div>
-        <Hero/>
-        <Blogs/>
+      <Hero />
+      <Blogs
+        blogData={blogData}
+      />
     </div>
   )
 }
