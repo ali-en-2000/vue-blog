@@ -7,10 +7,17 @@
 }
 
 .nav li{
-    margin-left: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    background-color: #ddd;
+    padding:1rem 2rem;
+
 }
 
-.nav li a{
-    text-decoration: none;
-    /* color: var(--white); */
+/* .search{
+    direction: ltr;
 }
+
+.search input{
+    direction:rtl;
+} */
