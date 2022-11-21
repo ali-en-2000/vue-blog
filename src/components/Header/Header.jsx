@@ -1,6 +1,8 @@
 import React from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
+import { FiMenu, FiSearch, FiUser } from "react-icons/fi";
+
 
 
 
@@ -26,9 +28,12 @@ const Header = () => {
             <input type="text" className="form-control" placeholder=" جستجو... " />
           </div> */}
 
-          <button>
+          <button className="header-btn">
             <span> ورود </span>
-            <span> </span>
+            <span> <FiUser /> </span>
+          </button>
+          <button className="header-btn">
+            <FiMenu />
           </button>
 
         </div>
