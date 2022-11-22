@@ -14,6 +14,29 @@
 
 }
 
-.header-btn{
-    outline: none;
+#logo-in, .menu{
+    
+    cursor: pointer;
+}
+
+#logo-in{
+    font-size: 1.2rem;
+    padding:0.5rem 1rem;
+    border:1px solid var(--mainColor);
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+    transition:all 0.2s ease-in;
+    -webkit-transition:all 0.2s ease-in;
+    -moz-transition:all 0.2s ease-in;
+    -ms-transition:all 0.2s ease-in;
+    -o-transition:all 0.2s ease-in;
+    margin-left: 1rem;
+}
+
+#logo-in:hover{
+    color: var(--white);
+    background-color: var(--mainColor);
 }

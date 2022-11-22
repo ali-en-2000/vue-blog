@@ -21,20 +21,16 @@ const Header = () => {
           </ul>
         </div>
 
-        <div className="header-left-side">
+        <div className="header-left-side d-flex align-items-center justify-between">
 
-          {/* <div className="input-group mb-3 search">
-            <button className="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
-            <input type="text" className="form-control" placeholder=" جستجو... " />
-          </div> */}
-
-          <button className="header-btn">
-            <span> ورود </span>
+          <div id="logo-in">
             <span> <FiUser /> </span>
-          </button>
-          <button className="header-btn">
-            <FiMenu />
-          </button>
+            <span> ورود </span>
+          </div>
+
+          <div className="menu d-block d-md-none ">
+            <FiMenu className="h2 " />
+          </div>
 
         </div>
 
