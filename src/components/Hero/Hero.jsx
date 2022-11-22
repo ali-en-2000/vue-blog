@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import img from '../../assets/bg.webp'
+import img from '../../assets/hero_img.jpg'
 
 const Hero = () => {
   return (
