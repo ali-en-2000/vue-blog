@@ -60,14 +60,23 @@
         flex-direction: column;
         position: absolute;
         top: 0;
-        right: 0;
+        right: -30rem;
         height: 100vh;
         padding: 2rem 5rem;
         z-index: 1000;
         padding-right: 0rem !important;
         text-align: center;
-        
+        transition:var(--transitionTime);
+        -webkit-transition:var(--transitionTime)  ;
+        -moz-transition:var(--transitionTime)  ;
+        -ms-transition:var(--transitionTime)  ;
+        -o-transition:var(--transitionTime); 
+}
+
+    .nav.active{
+        right: 0;
     }
+
     .nav li{
         width: 100%;
         margin-top:1rem;   

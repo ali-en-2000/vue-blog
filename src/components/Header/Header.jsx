@@ -18,8 +18,8 @@ const Header = () => {
           {/* <ul className="nav d-flex align-items-center justify-between"> */}
           <ul className={
             showNav ?
-            "nav d-flex align-items-center justify-between" :
-            "nav d-flex align-items-center justify-between d-none"
+            "nav d-flex align-items-center justify-between active" :
+            "nav d-flex align-items-center justify-between "
           }>
             <li>خانه </li>
             <li>درباره ما </li>
