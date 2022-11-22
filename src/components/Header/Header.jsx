@@ -12,9 +12,9 @@ const Header = () => {
 
       <div className="header-container container">
 
-        <div className="header-right-side">
+        <div className="header-right-side d-flex align-items-center justify-between">
+          <div className="logo h1 ms-3"> LOGO</div>
           <ul className="nav d-flex align-items-center justify-between">
-            <li className="logo h1"> LOGO</li>
             <li>خانه </li>
             <li>درباره ما </li>
             <li>تماس با ما </li>

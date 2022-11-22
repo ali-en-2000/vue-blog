@@ -9,9 +9,17 @@
 .nav li{
     margin-left: 1rem;
     cursor: pointer;
-    background-color: #ddd;
-    padding:1rem 2rem;
+    padding:0.5rem 1rem;
+    transition: var(--transitionTime);
+    -webkit-transition: var(--transitionTime);
+    -moz-transition: var(--transitionTime);
+    -ms-transition: var(--transitionTime);
+    -o-transition: var(--transitionTime);
+    border-bottom: 3px solid #00000000;
+}
 
+.nav li:hover{
+    border-bottom: 3px solid var(--color2);
 }
 
 #logo-in, .menu{
@@ -21,8 +29,10 @@
 
 #logo-in{
     font-size: 1.2rem;
-    padding:0.5rem 1rem;
-    border:1px solid var(--mainColor);
+    width:7rem;
+    text-align: center;
+    padding:0.5rem;
+    border:2px solid var(--color2);
     border-radius: 0.7rem;
     -webkit-border-radius: 0.7rem;
     -moz-border-radius: 0.7rem;
@@ -38,5 +48,5 @@
 
 #logo-in:hover{
     color: var(--white);
-    background-color: var(--mainColor);
+    background-color: var(--color2);
 }
