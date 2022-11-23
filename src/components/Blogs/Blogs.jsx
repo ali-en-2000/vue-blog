@@ -49,6 +49,7 @@ const Blogs = (props) => {
             <h5 className="text-center mb-3"> پست های اخیر </h5>
             {
               blogData.posts.map((item) => (
+
                 <div key={item.id} className="last-posts-item d-flex align-items-center justify-content-between my-2">
 
                   <div className="img-container">
@@ -76,12 +77,12 @@ const Blogs = (props) => {
             <a href="#" className="tag-item"> کسب و کار </a>
             <a href="#" className="tag-item"> کسب و کار </a>
             <a href="#" className="tag-item"> برنامه نویسی </a>
-            
+
           </div>
 
         </div>
       </div>
-    </div>
+    </div >
   )
 }
 
