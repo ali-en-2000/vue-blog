@@ -6,8 +6,12 @@
     direction: rtl;
 }
 
-.last-posts .img-container{
+.last-posts .last-posts-item .img-container{
     width: 40%;
+}
+
+.last-posts .last-posts-item .img-container img{
+    width: 100%;
 }
 
 .tag-item{

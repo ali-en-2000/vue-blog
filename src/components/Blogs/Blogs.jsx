@@ -1,5 +1,6 @@
 import React from 'react'
 import './Blogs.css'
+import { FiSearch } from "react-icons/fi";
 
 const Blogs = (props) => {
   const { blogData } = props;
@@ -8,7 +9,7 @@ const Blogs = (props) => {
     <div className="blogs container mt-4">
       <div className="row gap-5">
 
-        <div className="col-12 col-md-8 border">
+        <div className="col-12 col-md-8 ">
           <div className="row d-flex align-items-center justify-content-between ">
             {
               blogData.posts.map((item) => (
@@ -38,7 +39,7 @@ const Blogs = (props) => {
           <div className="search-container my-4">
             <h5 className="text-center mb-3"> جستجو </h5>
             <div className="input-group mb-3">
-              <button className="btn btn-primary" type="button" >Q</button>
+              <button className="btn btn-primary" type="button" > <FiSearch/> </button>
               <input type="text" className="form-control" placeholder=" دنبال چی هستی؟ " />
             </div>
           </div>

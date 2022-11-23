@@ -1,6 +1,8 @@
-
-
-img{
-    width: 100%;
+.hero-photo {
+    width: 90%;
     
+}
+
+.content-container{
+    padding-top: 3rem;
 }

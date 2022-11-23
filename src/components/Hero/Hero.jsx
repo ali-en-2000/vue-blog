@@ -7,10 +7,10 @@ const Hero = () => {
     <div className="hero" >
         <div className="container">
         <div className="row " >
-            <div className="col-12 col-md-6">
-                <img src={img} alt="" />
+            <div className="col-12 col-md-6 img-container ">
+                <img src={img} className="hero-photo" />
             </div>
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-6 content-container ">
                 <h2 className="mb-5" > به بلاگ برنامه نویسی ما خوش آمدید </h2>
                 <p> ما در این جا تجربیات و چالش هایی که در زمینه برنامه نویسی داشتیم رو به اشتراک می گذاریم </p>
                 <p> امیدوارم این مطالب برای شما مفید باشه </p>
