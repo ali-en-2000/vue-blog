@@ -1,6 +1,6 @@
 import React from 'react'
 import './Blogs.css'
-import { FiSearch } from "react-icons/fi";
+import { FiSearch, FiArrowLeft } from "react-icons/fi";
 
 const Blogs = (props) => {
   const { blogData } = props;
@@ -18,7 +18,7 @@ const Blogs = (props) => {
                     <h5 className="blog-card-title mb-3">{item.title}</h5>
                     <p className="blog-card-text">
                       لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است                     </p>
-                    <a href="#" className="btn "> بیشتر بخوانید </a>
+                    <button className="button read-more-btn"> بیشتر بخوانید <FiArrowLeft/> </button>
                   </div>
                 </div>
               ))

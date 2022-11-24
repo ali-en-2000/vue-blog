@@ -33,5 +33,29 @@ body {
 
 }
 
+.button{
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+  transition: var(--transitionTime);
+  -webkit-transition: var(--transitionTime);
+  -moz-transition: var(--transitionTime);
+  -ms-transition: var(--transitionTime);
+  -o-transition: var(--transitionTime);
+  letter-spacing:normal;  
+}
 
+.read-more-btn{
+  color: var(--color3);
+  background-color: var(--color1);
+  box-shadow: 0px 0px 13px var(--color1);
+}
 
+.read-more-btn:hover{
+  letter-spacing: 0.5px;
+  box-shadow: 0px 0px 10px transparent;
+}
