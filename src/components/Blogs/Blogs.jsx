@@ -9,21 +9,20 @@ const Blogs = (props) => {
     <div className="blogs container mt-4">
       <div className="row gap-5">
 
-        <div className="col-12 col-md-8 ">
-          <div className="row d-flex align-items-center justify-content-between ">
+        <div className="col-12 col-md-8 blog-post-container ">
             {
               blogData.posts.map((item) => (
-                <div key={item.id} className="card m-2" style={{ width: "48%" }} >
-                  <img src={item.photo} className="card-img-top w-100" alt="..." />
-                  <div className="card-body">
-                    <h5 className="card-title">{item.title}</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                <div key={item.id} className="blog-card m-2 rounded " >
+                  <img src={item.photo} className="blog-thumbnail w-100 h-50" alt="..." />
+                  <div className="blog-card-body">
+                    <h5 className="blog-card-title mb-3">{item.title}</h5>
+                    <p className="blog-card-text">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است                     </p>
+                    <a href="#" className="btn "> بیشتر بخوانید </a>
                   </div>
                 </div>
               ))
             }
-          </div>
         </div>
 
 
@@ -39,7 +38,7 @@ const Blogs = (props) => {
           <div className="search-container my-4">
             <h5 className="text-center mb-3"> جستجو </h5>
             <div className="input-group mb-3">
-              <button className="btn btn-primary" type="button" > <FiSearch/> </button>
+              <button className="btn btn-primary" type="button" > <FiSearch /> </button>
               <input type="text" className="form-control" placeholder=" دنبال چی هستی؟ " />
             </div>
           </div>
