@@ -8,6 +8,7 @@ import data from '../src/data/data.json'
 //import components 
 import Header from '../src/components/Header/Header'
 import Home from './components/Home/Home'
+import Footer from './components/Footer/Footer'
 
 function App() {
   
@@ -29,6 +30,8 @@ function App() {
 
         </Routes>
       </BrowserRouter>
+
+      <Footer/>
 
     </div>
   );
