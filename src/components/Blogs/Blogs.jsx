@@ -33,20 +33,18 @@ const Blogs = (props) => {
 
 
 
-        <div className="col-3 d-none d-lg-block border">
+        <div className="col-3 d-none d-lg-block">
 
           <div className="search-container my-4">
-            <h5 className="text-center mb-3"> جستجو </h5>
+            <h5 className="text-center mb-3 left-side-title"> جستجو </h5>
             <div className="input-group mb-3">
               <button className="btn btn-primary" type="button" > <FiSearch /> </button>
               <input type="text" className="form-control" placeholder=" دنبال چی هستی؟ " />
             </div>
           </div>
 
-          <hr />
-
           <div className="last-posts">
-            <h5 className="text-center mb-3"> پست های اخیر </h5>
+            <h5 className="text-center mb-3 left-side-title"> پست های اخیر </h5>
             {
               blogData.posts.map((item) => (
 
@@ -68,22 +66,10 @@ const Blogs = (props) => {
               )
               )
             }
-            {/* <div key={item.id} className="last-posts-item d-flex align-items-center justify-content-between my-2">
-
-<div className="img-container">
-  <img src={item.photo} alt="" />
-</div>
-
-<div className="ditails">
-  <p>{item.title}</p>
-</div>
-
-</div> */}
+  
           </div>
 
-          <hr />
-
-          <h5 className="text-center mb-3"> تگ ها </h5>
+          <h5 className="text-center mb-3 left-side-title"> تگ ها </h5>
           <div className="tags">
             <a href="#" className="tag-item"> کسب و کار </a>
             <a href="#" className="tag-item"> برنامه نویسی </a>

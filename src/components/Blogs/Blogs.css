@@ -2,6 +2,12 @@
     direction: ltr;
 }
 
+.left-side-title{
+    border-top: 2px solid var(--color2);
+    /* border-bottom: 2px solid var(--color2); */
+    padding: 0.6rem 0;
+}
+
 .search-container input[type="text"]{
     direction: rtl;
 }
