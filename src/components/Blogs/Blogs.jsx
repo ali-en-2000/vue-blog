@@ -1,9 +1,27 @@
 import React from 'react'
+import { useState, useEffect } from 'react';
 import './Blogs.css'
 import { FiSearch, FiArrowLeft } from "react-icons/fi";
+import axios from 'axios';
 
 const Blogs = (props) => {
+  const [blogs, setBlogs] = useState([]);
   const { blogData } = props;
+
+
+
+  useEffect(() => {
+    getData();
+  }, []);
+
+  const getData = () => {
+    axios.get("https://fakestoreapi.com/products")
+      .then(res => {
+        setBlogs(res.data);
+      }).catch(function (error) {
+        console.log(error.message);
+      });
+  }
 
   return (
     <div className="blogs container mt-4">
@@ -11,13 +29,14 @@ const Blogs = (props) => {
 
         <div className="col-12 col-md-8 blog-post-container ">
           {
-            blogData.posts.map((item) => (
-              <div key={item.id} className="blog-card m-2 rounded " >
-                <img src={item.photo} className="blog-thumbnail w-100 h-50" alt="..." />
+            blogs.map((item) => (
+              <div key={item.id} className="blog-card m-2 rounded" >
+                <img src={item.image} className="blog-thumbnail w-100 h-50 p-4" alt="..." />
                 <div className="blog-card-body">
                   <h5 className="blog-card-title mb-3">{item.title}</h5>
                   <p className="blog-card-text">
-                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است                     </p>
+                    {item.description}
+                  </p>
                   <button className="button read-more-btn"> بیشتر بخوانید <FiArrowLeft /> </button>
                 </div>
               </div>
@@ -49,24 +68,24 @@ const Blogs = (props) => {
               blogData.posts.map((item) => (
 
                 item.id <= 3 ?
-                <div key={item.id} className="last-posts-item d-flex align-items-center justify-content-between my-2">
+                  <div key={item.id} className="last-posts-item d-flex align-items-center justify-content-between my-2">
 
-                  <div className="img-container">
-                    <img src={item.photo} alt="" />
-                  </div>
+                    <div className="img-container">
+                      <img src={item.photo} alt="" />
+                    </div>
 
-                  <div className="ditails">
-                    <p>{item.title}</p>
-                  </div>
+                    <div className="ditails">
+                      <p>{item.title}</p>
+                    </div>
 
-                </div> :
+                  </div> :
 
-                <div className="d-none" > </div>
+                  <div className="d-none" > </div>
 
               )
               )
             }
-  
+
           </div>
 
           <h5 className="text-center mb-3 left-side-title"> تگ ها </h5>
