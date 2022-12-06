@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: 'vazir';
+    src: url('assets/fonts/Vazir.ttf') format('truetype'),
+    url('assets/fonts/Vazir.ttf') format('truetype');
+}
+
+body {
+    direction: rtl;
+    overflow: hidden;
+    font-family: vazir, sans-serif;
+}
