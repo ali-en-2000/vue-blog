@@ -40,11 +40,11 @@ async function getBlog(id) {
     <div class="flex flex-wrap md items-center h-screen">
       <div class="bg-white w-full md:w-1/2">
         <div class="mx-32">
-          <h1 class="text-6xl font-bold mt-16">title : {{ state?.blog?.title }}</h1>
+          <h1 class=" font-bold mt-16 text-lg">title : {{ state?.blog?.title }}</h1>
 
 
           <!-- description -->
-          <div class="description w-full sm: md:w-2/3 mt-16 text-gray-500 text-sm">
+          <div class="description w-full  md:w-2/3 mt-16 text-gray-500 text-sm">
             description : {{ state?.blog?.body }}
           </div>
 
@@ -53,7 +53,7 @@ async function getBlog(id) {
         </div>
       </div>
       <div class="bg-red-600 w-full md:w-1/2 ">
-        <img src="https://source.unsplash.com/7H77FWkK_x4/1600x900" class="h-full w-full" alt="" />
+        <img src="../../assets/images/post3.jpg" class="h-full w-full" alt="" />
       </div>
     </div>
 
