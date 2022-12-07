@@ -1,10 +1,9 @@
 <script setup>
-import Home from './page/Home/index.vue'
 </script>
 
 <template>
   <div class=" max-w-7xl mx-auto" >
-    <Home />
+    <router-view></router-view>
   </div>
 </template>
 
