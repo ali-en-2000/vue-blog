@@ -1,10 +1,11 @@
 <script setup>
 import searchIcon from '../../components/icons/search.vue';
-import Header from '../../components/header.vue'
+import Header from '../../components/header.vue';
+import blogList from '../../components/blogList.vue';
 </script>
 
 <template>
-  <div class="px-5 h-screen">
+  <div class="px-5">
 
     <Header />
 
@@ -23,8 +24,10 @@ import Header from '../../components/header.vue'
       </div>
     </div>
     <div class="grid grid-cols-12 gap-5">
-      <div class="col-span-12 md:col-span-8  border border-2 rounder-md h-screen ">01</div>
-      <div class="col-span-0 md:col-span-4  rounder-md grid grid-cols-1 text-center  h-96  hidden md:block">
+      <div class="col-span-12 md:col-span-9 rounder-md h-screen ">
+        <blogList/>
+      </div>
+      <div class="col-span-0 md:col-span-3 rounder-md grid grid-cols-1 text-center mt-7 h-96  hidden md:block">
         <div class=" border-y-2 border-blue-600  py-5">
           <p class="bold text-xl">
             جستوجو
